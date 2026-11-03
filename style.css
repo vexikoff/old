@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to top, #71b6f1 0%, #71b6f1 50%, #ffffff 100%);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    font-size: 8px;
+    background: linear-gradient(to top, #1993f6 0%, #1993f6 50%, #40a6f5 52.5%, #8fc4ef 100%);
+    color: white;
+    align-content: center;
+    justify-content: center;
+    h1 {
+        margin: auto 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+}
+
+.content {
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 48px;
+    padding-top: 12px;
+}
