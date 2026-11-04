@@ -15,6 +15,17 @@ body, html {
     filter:  contrast(5);
 }
 
+.bg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -50vh;
+    z-index: 99;
+    width: 100vw;
+    height: 150vh;
+}
+
 .header {
     display: flex;
     width: 100%;
