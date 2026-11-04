@@ -21,7 +21,7 @@ body, html {
     left: 0;
     right: 0;
     bottom: -50vh;
-    z-index: 99;
+    z-index: -1;
     width: 100vw;
     height: 150vh;
 }
